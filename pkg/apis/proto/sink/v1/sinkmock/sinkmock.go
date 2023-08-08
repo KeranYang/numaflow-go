@@ -9,10 +9,11 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	v1 "github.com/numaproj/numaflow-go/pkg/apis/proto/sink/v1"
 	grpc "google.golang.org/grpc"
 	metadata "google.golang.org/grpc/metadata"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
+
+	v1 "github.com/KeranYang/numaflow-go/pkg/apis/proto/sink/v1"
 )
 
 // MockUserDefinedSinkClient is a mock of UserDefinedSinkClient interface.
